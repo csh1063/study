@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta lang="kr"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Choi's Page - HTML</title>
+</head>
+<body>
+	<header>
+		Choi's Study
+		<h1>우리 스터디의 이름은 무엇인가?</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="study-css.html">CSS</a></li>
+				<li><a href="study-boxmodel.html">Box Model</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>HTML에 관하여</h1>
+		<h3>HTML 이란</h3>
+		<p>Hyper Text Markup Language 의 약자로써 월드와이드웹 문서를 작성하는 Markup Language이다. <br/>HTML은 여러 태그들로 구성되어 있으며 각 태그들을 사용하여 원하는 형태의 문서를 만들어 간다.</p>
+		<ul>
+			<li>HT - HyperText, 문서와 문서가 링크로 연결되어 있다.</li>
+			<li>M - Markup, 태그로 이루어져 있다.</li>
+			<li>L - Language</li>
+		</ul>
+		<h3>태그란?</h3>
+		<p>태그란 정보를 정의 하는 형식</p>
+		<h3>태그의 형식</h3>
+		<p>
+			&lt;<strong>태그명</strong> <strong>속성명</strong>1="<strong>속성값</strong>1" <strong>속성명</strong>2="<strong>속성값</strong>2"&gt;<strong>컨텐츠</strong>&lt;<strong>/태그명</strong>&gt;
+		</p>
+		<ul>
+			<li><p>태그는 컨텐츠를 감싸서 그 정보의 성격과 의미를 정의 한다.</p></li>
+			<li><p>열리는 태그가 있으면 닫히는 태그가 있어야 한다.</p></li>
+			<li><p>닫히는 태그는 태그 명 앞에는 '/'가 붙는다.</p></li>
+			<li>
+				<p>
+					속성은 태그의 부가적인 정보가 들어온다. <br/>
+					아래 예제에서 href는 속성명, https://naver.com은 속성값이다.<br/>
+					href 속성은 컨텐츠인 네이버가 https://naver.com와 연결되어 있다는 것을 의미한다.<br/><br/>
+					&lt;a href="https://naver.com"&gt;네이버&lt;/a&gt;
+				</p>
+			</li>
+			<li>
+				<p>		
+					닫히는 태그가 필요 없는 태그도 있다. 이런 경우 <태그명 />의 형식을 갖는다.
+				</p>
+				<p>
+					&lt;br/&gt;
+					<br/>
+					&lt;input type="button" value="버튼"/&gt;
+				</p>
+			</li>
+		</ul>
+		<h3>HTML 파일의 구조</h3>
+		<ul>
+			<li><p>HTML 문서는 파일의 확장자가 html 혹은 htm으로 끝난다.</p></li>
+			<li><p>최상위 태그로 &lt;html&gt;을 사용한다. 그 하위에 &lt;head&gt; 태그와 &lt;body&gt; 태그를 컨텐츠로 가지고 있다.</p></li>
+			<li><p>&lt;head&gt; 태그는 문서를 설명하는 태그로 제목이나 키워드와 같은 정보를 담는다.</p></li>
+			<li><p>&lt;body&gt; 태그에는 문서의 내용이 위치한다.</p></li>
+			<li><p>HTML 코드를 파일에 저장하고 웹브라우저에서 로딩하면 웹페이지가 만들어진다.<br>HTML 파일은 텍스트를 편집할 수 있는 에디터로 만들 수 있고, 확장자명으로 html 혹은 htm을 사용한다.</p></li>
+		</ul>
+		<p>
+			<pre>
+			&lt;!DOCTYPE html&gt;
+			&lt;html&gt;
+			    &lt;head&gt;
+			        문서를 정의하는 데이터가 위치함
+			        &lt;meta charset="utf-8"/&gt;
+			    &lt;/head&gt;
+			    &lt;body&gt;
+			        문서에 표시되는 컨텐츠가 위치함
+			        &lt;h1&gt;하핫&lt;/h1&gt;
+			        &lt;img src="~~~.jpg" alt="히힛"&gt;
+			    &lt;/body&gt;
+			&lt;/html&gt;
+			</pre>
+		</p>
+		<h3>참고</h3>
+		<ul><li><a href="https://opentutorials.org/course/1073/10">생활 코딩</a></li></ul>
+	</article>
+	<footer>
+		<p>
+			최상현 | <a href="mail.html">csh1063@gmail.com</a> | 서울특별시 강서구 ** ** ******* **** **** | 010-****-**** 
+		</p>
+	</footer>
+</body>
+</html>

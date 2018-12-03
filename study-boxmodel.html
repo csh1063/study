@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta lang="kr"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Choi's Page - Box Model</title>
+</head>
+<body>
+	<header>
+		Choi's Study 
+		<h1>우리 스터디의 이름은 무엇인가?</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="study-html.html">HTML</a></li>
+				<li><a href="study-css.html">CSS</a></li>
+				<li><a href="#">Box Model</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>Box Model에 관하여</h1>
+		<h3>Box Model 이란</h3>
+		<p>css에서 모든 요소(element)들은 박스들로 간주한다. 그래서 css에서 디자인과 레이아웃에 대해 이야기할 때에 주로 "박스모델(box model)"이란 용어를 자주 사용하게 된다.<br/>
+		이 박스모델(box model)은 모든 각각의 html 요소들을 감싸는 하나의 박스를 지칭하고 실제 내용(content), 패딩(padding), 테두리(border) 그리고 여백(margin)으로 구성이 된다.</p>
+		<ul>
+			<li><h4>content</h4>
+				<p>- 텍스트 및 이미지가 나타나는 내용 영역.</p>
+			</li>
+			<li><h4>padding</h4>
+				<p>- content 주위를 투명하게 분리하는 영역. 패딩을 조절해서 내용이 너무 답답해 보이지 않도록 할때도 사용한다.</p>
+			</li>
+			<li><h4>border</h4>
+				<p>- 패딩과 content 주위를 둘러싸는 테두리. 선을 표시한다.</p>
+			</li>
+			<li><h4>margin</h4>
+				<p>- border 외부를 투명하게 분리하는 영역. 다른 요소들과 분리하기 위해 사용한다.</p>
+			</li>
+		</ul>
+		<h3>element의 width, height 계산</h3>
+		<p>모든 브라우저에서 요소의 너비와 높이를 올바르게 설정하려면 박스 모델의 작동 방식을 알아야한다.<br/>이유는 CSS로 width나 height의 속성을 설정하면 오직 content 영역의 너비와 높이만 설정하기 때문이다.<br/>요소의 전체 크기를 계산하려면 content 폭과 높이에 패딩, 테두리 및 여백도 추가해야한다.</p>
+		<p>CSS의 box-sizing 속성을 이용해 width나 height 의 기준을 content 나 border 로 바꿔서 사용할 수 도 있다.</p>
+		<h3>참고</h3>
+		<ul><li><a href="http://ingorae.tistory.com/1714">어느 블로그</a></li></ul>
+	</article>
+	<footer>
+		<p>
+			최상현 | <a href="mail.html">csh1063@gmail.com</a> | 서울특별시 강서구 ** ** ******* **** **** | 010-****-**** 
+		</p>
+	</footer>
+</body>
+</html>
