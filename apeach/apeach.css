@@ -100,3 +100,38 @@
     border-radius: 3px 3px 0 3px;
     transform: rotate(55deg) skewY(-20deg);
 }
+
+.apeach .hip-line {
+    
+}
+
+.apeach:hover .eye {
+    top: 115;
+    transform: rotate(90deg);
+    width: 15px;
+}
+
+.apeach:hover .eye-left {
+    left: 45;
+}
+
+.apeach:hover .eye-right {
+    right: 45;
+}
+
+.apeach:hover .eye-left .line, .apeach:hover .eye-right .line {
+    transform: skewY(0deg) rotate(30deg);
+    left: 0;
+    right: 0;
+    background-color: #F66B6E;
+    border: 1px solid #fbc5c5;
+}
+
+.apeach:hover .flush, .apeach:hover .mouth,
+.apeach:hover .eye-left .big-bling, .apeach:hover .eye-right .big-bling,
+.apeach:hover .eye-left .small-bling, .apeach:hover .eye-right .small-bling {
+    display: none;
+}
+
+.apeach .hip-line {
+}
