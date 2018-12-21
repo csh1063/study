@@ -55,7 +55,7 @@
 .apeach .eye-left .big-bling, .apeach .eye-right .big-bling {
     position: absolute;
     top:15;
-    left: 6;
+    left: 7;
     width: 10px;
     height: 10px;
     background-color: white;
@@ -65,7 +65,7 @@
 .apeach .eye-left .small-bling, .apeach .eye-right .small-bling {
     position: absolute;
     top:5;
-    left: 15;
+    left: 20;
     width: 6px;
     height: 6px;
     background-color: white;
@@ -95,8 +95,8 @@
     left: 90;
     width: 20px;
     height: 20px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
     border-radius: 3px 3px 0 3px;
     transform: rotate(55deg) skewY(-20deg);
 }
