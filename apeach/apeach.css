@@ -29,7 +29,7 @@
 }
 
 .apeach .eye-left {
-    left: 35;
+    left: 40;
 }
 
 .apeach .eye-right {
@@ -82,7 +82,7 @@
 }
 
 .apeach .flush-left {
-    left: 30;
+    left: 35;
 }
 
 .apeach .flush-right {
@@ -92,7 +92,7 @@
 .apeach .mouth {
     position: absolute;
     top: 110;
-    left: 90;
+    left: 93;
     width: 20px;
     height: 20px;
     border-bottom: 4px solid black;
@@ -116,7 +116,7 @@
 }
 
 .apeach:hover .eye-right {
-    right: 45;
+    right: 35;
 }
 
 .apeach:hover .eye-left .line, .apeach:hover .eye-right .line {
