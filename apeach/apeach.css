@@ -16,7 +16,7 @@
     content: "";
     box-sizing: content-box;
     background-color: #fbc5c5;
-    border-radius: 10px 160px 180px 160px;
+    border-radius: 10px 160px 180px 160px / 40% 80% 90% 120%;
     transform: rotate(45deg);
     border: 5px solid black;
 }
