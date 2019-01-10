@@ -13,7 +13,7 @@
         <form action="https://script.google.com/macros/s/AKfycbwAcc9fKFwJho6JFLHHLkjOAMHmzY47AZpMT7u1idoaM4AVf80h/exec" method="post">
             <section class="user">
                 <label for="name">이름 : </label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="이름" required="true">
             </section>
             <section class="questions">
                 <p>
@@ -41,23 +41,22 @@
                 </p>
                 <ul>
                     <li>
-                        <label for="q4-1"><input type="radio" id="q4-1" name="q4"><span>룰 또는 룰셋이라고 불러</span></label>
+                        <label for="q4-1"><input type="radio" id="q4-1" name="문제4" value="1"><span>룰 또는 룰셋이라고 불러</span></label>
                     </li>
                     <li>
-                        <label for="q4-2"><input type="radio" id="q4-2" name="q4"><span>: (콜론)을 기준으로 앞쪽이 attribute 고 뒤쪽이 value야</span></label>
+                        <label for="q4-2"><input type="radio" id="q4-2" name="문제4" value="2"><span>: (콜론)을 기준으로 앞쪽이 attribute 고 뒤쪽이 value야</span></label>
                     </li>
                     <li>
-                        <label for="q4-3"><input type="radio" id="q4-3" name="q4"><span>.이나 #이 없으니 h1을 tag selector라고 할수 있겠어!</span></label>
+                        <label for="q4-3"><input type="radio" id="q4-3" name="문제4" value="3"><span>.이나 #이 없으니 h1을 tag selector라고 할수 있겠어!</span></label>
                     </li>
                     <li>
-                        <label for="q4-4"><input type="radio" id="q4-4" name="q4"><span>저기에 이름을 쓰면 기분 나쁜 미신이 생각나겠는데?</span></label>
+                        <label for="q4-4"><input type="radio" id="q4-4" name="문제4" value="4"><span>저기에 이름을 쓰면 기분 나쁜 미신이 생각나겠는데?</span></label>
                     </li>
                 </ul>
                 <p>
                     <label for="q5">
-                        문제 5 ) ::after나 ::before 처럼, 선택자(selector)에 추가되지만 특별한 상태를 기술하는 대신, 문서의 특정 부분을 스타일할 수 있는 요소를 뭐라고 할까?
+                        문제 5 ) z-index 는 어떤 역할을 할까?
                     </label>
-                    <input type="text" id="q5" name="문제5">
                     <textarea name="문제5"></textarea>
                 </p>
             </section>
