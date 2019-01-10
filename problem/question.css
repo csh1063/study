@@ -7,6 +7,10 @@ body {
     font-size: 25px;
 }
 
+.questions {
+    margin-bottom: 100px;
+}
+
 .questions label {
     display: block;
 }
@@ -14,7 +18,8 @@ body {
 .questions input,
 .questions label,
 .questions textarea,
-.questions pre {
+.questions pre, 
+.questions p {
     margin: 5px 0 10px 0;
     font-size: 20px;
 }
@@ -44,6 +49,11 @@ body {
     list-style: none;
     margin: 20px 0;
     padding: 0
+}
+
+.questions .short-list li {
+    float: left;
+    margin-right: 20px;
 }
 
 .underline {
