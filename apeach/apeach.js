@@ -69,7 +69,7 @@ var newStudy = (() => {
     return {
         member: member,
         nextStudy: nextStudy,
-        dinner: dinnerSelector(),
+        dinner: dinnerSelector,
         goal: goal
     }
 })();
